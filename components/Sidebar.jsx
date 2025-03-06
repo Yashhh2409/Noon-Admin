@@ -16,10 +16,10 @@ const Sidebar = () => {
 
   return (
     <div className="h-full flex flex-col items-start justify-start pt-6 text-white">
-      <div className="flex justify-center items-center w-full h-[15%]">
+      <Link href={"/dashbord"} className="flex justify-center items-center w-full h-[15%]">
       <h1 className="font-bold text-base sm:text-lg md:text-xl lg:text-4xl">Noon</h1>
 
-      </div>
+      </Link>
 
       {/* Home Setting */}
       <Link
